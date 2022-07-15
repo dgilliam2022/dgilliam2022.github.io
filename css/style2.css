@@ -1,0 +1,55 @@
+header {
+  margin-left: 40px; 
+}
+
+body {
+  background: rgba(250, 226, 229, .25); 
+  position: relative;
+  top: -350px;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+  font-size: 50px;
+}
+.subheader {
+  font-family: sans-serif;
+  padding-bottom: 10px;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div {
+  position: relative;
+  top: -60px;
+  margin-left: 40px;
+}
+
+p {
+font-family: sans-serif;
+  font-size: 18px;
+  
+}
+ul {
+  font-family: sans-serif;
+  text-align: center;
+   font-size: 22px;
+  font-weight: bold;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.ending {
+  text-align: center;
+  margin-top: 80px;
+}
+.background-logo {
+  position: relative;
+  left: 850px;
+  bottom: -350px;
+  width: 500px;
+  opacity: 10%
+}

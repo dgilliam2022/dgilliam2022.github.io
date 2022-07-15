@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blackjack</title>
+	<link rel="stylesheet" href="css/blackjack.css">
+</head>
+<body>
+   <div class="homepage-container">
+       <button class="homepage"><a href="game.html">Numbers Duel</a></button>
+   </div>
+   <h2>Dealer: <span id="dealer-sum"></span></h2>
+   <div id="dealer-cards">
+       <img id="hidden" src="img/cards/BACK.png"> 
+   </div>
+<section class="container-one">
+   <div class="first-wrapper" id="wrapper-one"> 
+      <h2>Player 1: <span id="one-sum"></span></h2>
+      <div class="first-cards" id="one-cards"></div>
+      <div id="one-cards-hidden">
+          <img class="one-hidden" src="img/cards/BACK.png"> 
+          <img class="one-hidden" src="img/cards/BACK.png"> 
+      </div>  
+      <button class="hit" id="one-hit">Hit</button>
+      <button class="stay" id="one-stay">Stay</button>
+      <p class="results" id="one-results"></p>
+   </div>
+   <div class="second-wrapper" id="wrapper-two">
+      <h2>Player 2: <span id="two-sum"></span></h2>
+      <div class="second-cards" id="two-cards"></div>
+      <div id="two-cards-hidden">
+          <img class="two-hidden" src="img/cards/BACK.png"> 
+          <img class="two-hidden" src="img/cards/BACK.png"> 
+      </div>  
+      <button class="hit" id="two-hit">Hit</button>
+      <button class="stay" id="two-stay">Stay</button>
+      <p class="results" id="two-results"></p>
+   </div>
+</section>
+<section class="button-container">
+   <div class="toggle" id="hidden-one">
+      <button class="toggle-one">Hide/Show Hand</button>
+   </div>
+   <div class="toggle" id="hidden-two">
+      <button class="toggle-two">Hide/Show Hand</button>
+   </div>
+</section>  
+
+ <script 
+ src="https://code.jquery.com/jquery-3.2.1.min.js"
+ integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+ crossorigin="anonymous"></script>
+ <script src='js/blackjack.js'></script>	
+</body>
+</html>

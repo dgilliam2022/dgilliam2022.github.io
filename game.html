@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Numbers Duel</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="homepage-container">
+	   <button class="homepage"><a href="Blackjack.html">Blackjack</a></button>
+   </div>
+	<h1>Numbers Duel</h1>
+	<section class="container-one">
+	   <div class="player" id="one">
+	   	  Player 1  
+	   	  <br>
+		  <input type="text" placeholder="Username" class="username">
+		  <br>
+		  <button class="submit">Submit</button>
+	   </div>
+	   <div class="vs">VS</div>
+	   <div class="player" id="two">
+	   	  Player 2
+	   	  <br>  
+		  <input type="text" placeholder="Username" class="usernametwo">
+		  <br>
+		  <button class="submittwo">Submit</button>
+	   </div>
+    </section>
+    <section class="container-two">
+      <div class="drawnumbers" id="uno">
+         <button class="first">Draw Numbers</button>
+      </div>  
+      <div class="spacing">VS</div>
+      <div class="drawnumbers" id="dos">
+         <button class="second">Draw Numbers</button>
+      </div>   
+    </section>
+
+    <section class="button-container">
+    	<div class="toggle" id="hidden-one">
+         <button class="toggle-one">Hide/Show Hand</button>
+      </div>
+      <div class="toggle" id="hidden-two">
+         <button class="toggle-two">Hide/Show Hand</button>
+      </div>
+    </section>
+
+    <section class="container-three">
+    	<div class="duel" id="zone-one">
+    	</div>
+    	<div class="begin-text">
+    		Begin!
+    		<br>
+    		<img class="begin-image" src="https://gugimages.s3.us-east-2.amazonaws.com/wp-content/uploads/2015/03/23050700/Mega-Man-X6-Zero-Reunion.jpg">
+    		<br>
+    		<button class="challenge">Challenge</button>
+    	</div>
+    	<div class="duel" id="zone-two">
+    	</div>	
+    </section>
+    <section class="container-four">
+	   <div class="scoreboard" id="player-one">
+	   	  <span class="score-one">Score:</span>  
+	   	  <br>
+		  <input type="text" placeholder="Enter the # of points you've earned" class="points">
+		  <br>
+		  <button class="enter">Submit</button>
+	   </div>
+	   <div class="scoreboard" id="player-two">
+	   	  <span class="score-two">Score:</span>
+	   	  <br>  
+		  <input type="text" placeholder="Enter the # of points you've earned" class="pointstwo">
+		  <br>
+		  <button class="entertwo">Submit</button>
+	   </div>
+    </section>
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+<script src='js/main.js'></script>
+  
+</body>
+</html>
+
